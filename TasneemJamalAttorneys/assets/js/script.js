@@ -130,15 +130,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// Contact Form Functionality
-const contactForm = document.getElementById('consultationForm');
+// // Contact Form Functionality
+// const contactForm = document.getElementById('consultationForm');
 
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  // Form submission logic would go here
-  alert('Thank you for your message! We will contact you soon.');
-  contactForm.reset();
-});
+// contactForm.addEventListener('submit', (e) => {
+//   e.preventDefault();
+//   // Form submission logic would go here
+//   alert('Thank you for your message! We will contact you soon.');
+//   contactForm.reset();
+// });
 
 // Utility Functions
 function callNow() {
